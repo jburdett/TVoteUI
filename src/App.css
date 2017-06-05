@@ -1,0 +1,136 @@
+.App {
+  border: black;
+  border-style: solid;
+  border-radius: 50px;
+  margin: 25px;
+  border-width: 10px;
+  padding: 25px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.App-logo {
+  height: 100px;
+}
+
+.App-header {
+  height: 100px;
+  padding: 0px;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+ol {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.artist {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.link {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.video {
+  text-align: center;
+}
+
+.track-iframe {
+  height: 400px;
+  width: 750px;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.react-tabs__tab--selected {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-bottom-style: none !important;
+}
+
+.react-tabs__tab {
+  width: 30%;
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+  border-bottom-style: solid;
+}
+
+form {
+  font-size: 24px;
+}
+
+.input-field {
+  border-style: solid;
+  height: 44px;
+  float: right;
+  width: 50%;
+  text-align: right;
+  font-size: 24px;
+  padding: 1px;
+  border-width: 2px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.submit {
+  float: right;
+  width: 15%;
+  height: 50px;
+  font-size: 24px;
+  font-family: monospace;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  background: none;
+  border-color: black;
+}
+
+.form-field {
+  height: 50px;
+  line-height: 50px;
+  padding: 5px;
+}
+
+.youtube-result {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.result-iframe {
+  height: 200px;
+  width: 300px;
+}
+
+.select-button {
+  width: 75px;
+  height: 50px;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 5px;
+}
+
+.selected {
+  background-color: green;
+}
+
+.select-button img{
+  height: inherit;
+}
