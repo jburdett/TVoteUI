@@ -11,10 +11,10 @@ const YoutubeResult = (props) => (
         allowFullScreen
       ></iframe>
     </div>
-    <div className='select-button' onClick={props.select}>
+    <div className='select-button accept' onClick={props.select}>
       <img src={thumbs_up} />
     </div>
-    <div className='select-button' onClick={props.reject}>
+    <div className='select-button reject' onClick={props.reject}>
       <img src={thumbs_down} />
     </div>
   </div>
