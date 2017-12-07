@@ -7,9 +7,9 @@ import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 const App = () => (
   <div className="App">
-    <Header />
     <Router>
       <div>
+        <Header />
         <Route exact path="/" component={Home} />
         <Route path="/track/:id" component={Track} />
       </div>
